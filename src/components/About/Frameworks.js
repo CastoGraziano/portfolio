@@ -1,50 +1,46 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiLinux,
-  SiVisualstudiocode,
-  SiPostman,
-  SiVisualstudio,
-  SiIntellijidea,
-  SiDocker,
-  SiAmazonaws,
-  SiFirebase
-} from "react-icons/si";
+    DiScrum
+} from "react-icons/di";
+import { SiSpring, SiElectron, SiReact, SiSymphony, SiFlask, SiDjango, SiFlutter, SiNodeDotJs } from "react-icons/si";
+import { FaVuejs } from "react-icons/fa";
 
-import {DiGit} from "react-icons/di";
-
-function Toolstack() {
+function Frameworks() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiLinux />
+        <SiSpring />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <SiElectron />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <SiNodeDotJs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudio />
+        <FaVuejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiIntellijidea />
+        <SiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiFlask />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiDocker />
+        <SiDjango />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiAmazonaws />
+        <SiSymphony />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiFlutter />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiScrum />
       </Col>
     </Row>
   );
 }
 
-export default Toolstack;
+export default Frameworks;
